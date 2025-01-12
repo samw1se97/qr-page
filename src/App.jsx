@@ -50,7 +50,7 @@ function App() {
 
         <article>
           <h2 className='text_shdw name'>Contact me</h2>
-          <ul className='.contact_ul'>
+          <ul className='contact_ul'>
             <li className='contact_li'>
               <a href='/'>
                 <MdWhatsapp />
