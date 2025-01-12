@@ -5,7 +5,7 @@ import ProjectCard from './components/ProjectCard';
 import List from './components/List';
 import { MdWhatsapp } from 'react-icons/md';
 import { FaGoogle } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa6';
+import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 function App() {
   // mySkills.map((skill) => console.log(skill));
   return (
@@ -52,18 +52,27 @@ function App() {
           <h2 className='text_shdw name'>Contact me</h2>
           <ul className='contact_ul'>
             <li className='contact_li'>
-              <a href='/'>
+              <a
+                href="https://wa.me/1234567890?text=Hello!%20I'm%20interested%20in%20your%20services."
+                target='_blank'>
                 <MdWhatsapp />
               </a>
             </li>
             <li className='contact_li'>
-              <a href='/'>
+              <a href='mailto:miodowork@gmail.com' target='_blank'>
                 <FaGoogle />
               </a>
             </li>
             <li className='contact_li'>
-              <a href='/'>
+              <a
+                href='https://www.linkedin.com/in/s-m-59a16a223/'
+                target='_blank'>
                 <FaLinkedin />
+              </a>
+            </li>
+            <li className='contact_li'>
+              <a href='https://github.com/samw1se97' target='_blank'>
+                <FaGithub />
               </a>
             </li>
           </ul>
