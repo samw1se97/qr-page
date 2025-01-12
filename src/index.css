@@ -231,6 +231,34 @@ li {
   visibility: visible;
 }
 
+.contact_ul{
+  text-align: center;
+}
+.contact_li{
+
+    background-color: #f0f8ff;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact_li:hover{
+    transform: translateY(-5px); /* Slightly lifts the box */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.contact_li> a{
+      display: flex;
+      justify-content: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+
 .separator {
   display: flex;
   flex-direction: column;
