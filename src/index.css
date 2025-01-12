@@ -231,7 +231,7 @@ li {
   visibility: visible;
 }
 
-.contact_ul{
+article > .contact_ul{
   text-align: center;
 }
 .contact_li{
